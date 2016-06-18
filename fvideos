@@ -1,0 +1,1 @@
+find $1 -ctime -7 -name '*.mp4' -or -name '*.flv' -or -name '*.wmv' -or -name '*.mkv' -or -name '*.avi' -or -name '*.mov'
