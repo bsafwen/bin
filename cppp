@@ -1,0 +1,4 @@
+#!/bin/bash
+
+name=$(echo $1 | cut -d"." -f1 )
+g++ -g $@ -o $name -std=c++11
