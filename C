@@ -20,7 +20,7 @@ if os.path.isfile(name):
         sys.exit()
 
 file = open(name, 'w+')
-file.write("#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char** argv){\n\treturn 0;\n}")
+file.write("#include <stdio.h>\n#include <stdlib.h>\n\nint main(void){\n    return 0;\n}")
 file.close()
 call(["bash","-c","vim "+name])
 
