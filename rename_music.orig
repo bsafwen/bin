@@ -1,0 +1,17 @@
+#!/bin/bash
+IFS=$'\n'
+ls *.mp3 | sed 's/-[^\ ].*[^A,E,Y,U,I,O,a,e,y,u,i,o][^A,E,Y,U,I,O,a,e,y,u,i,o].*/\.mp3/' > output
+
+
+new=(`cat output`)
+i=0
+<<<<<<< HEAD
+for name in `ls $1/*.mp3` 
+=======
+for name in `ls *.mp3` 
+>>>>>>> e8a18a31f7ab1f3ea3501f4ced886cda3f69f3d2
+do
+    mv $name ${new[$i]} &> /dev/null
+    i=$[ $i + 1 ]
+done
+rm output

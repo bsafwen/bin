@@ -1,0 +1,9 @@
+#!/bin/bash
+
+name=$(echo $1 | cut -d"." -f1 )
+<<<<<<< HEAD
+gcc -std=c99 -g3 $@ -o $name 
+# gcc -Og $@ -o $name 
+=======
+gcc -g $@ -o $name 
+>>>>>>> e8a18a31f7ab1f3ea3501f4ced886cda3f69f3d2

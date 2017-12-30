@@ -1,0 +1,10 @@
+#!/bin/bash
+IFS=$'\n'
+read -p "Enter the URL : " url
+<<<<<<< HEAD
+youtube-dl -i -c --yes-playlist --extract-audio --audio-format mp3 $url # &>/dev/null  && rename_music
+#youtube-dl -i -c --yes-playlist  $url &>/dev/null
+=======
+#youtube-dl -i -c --yes-playlist --extract-audio --audio-format mp3 $url &>/dev/null  && rename_music
+youtube-dl -i -c --yes-playlist  $url &>/dev/null  && rename_music
+>>>>>>> e8a18a31f7ab1f3ea3501f4ced886cda3f69f3d2

@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+import os.path
+import sys
+import random
+from subprocess import call
+
+random.seed()
+name=''
+if len(sys.argv) < 2:
+    name=chr(random.randint(65,121))+"test"+".c"
+else:
+    name=sys.argv[1]
+answer=""
+if os.path.isfile(name):
+    answer=input(name+" exists, override? ")
+    if answer == "y":
+        file = open(name)
+    else:
+        print("exiting...")
+        sys.exit()
+
+file = open(name, 'w+')
+<<<<<<< HEAD
+file.write("#include <stdio.h>\n#include <stdlib.h>\n\nint main(void){\n    return 0;\n}")
+=======
+file.write("#include <stdio.h>\n#include <stdlib.h>\n\nint main(int argc, char** argv){\n\treturn 0;\n}")
+>>>>>>> e8a18a31f7ab1f3ea3501f4ced886cda3f69f3d2
+file.close()
+call(["bash","-c","vim "+name])
+

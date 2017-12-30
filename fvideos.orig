@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+find $1 -maxdepth $2 -name '*.mp4' -or -name '*.flv' -or -name '*.wmv' -or -name '*.mkv' -or -name '*.avi' -or -name '*.mov'
+=======
+find $1 -ctime -7 -name '*.mp4' -or -name '*.flv' -or -name '*.wmv' -or -name '*.mkv' -or -name '*.avi' -or -name '*.mov'
+>>>>>>> e8a18a31f7ab1f3ea3501f4ced886cda3f69f3d2
