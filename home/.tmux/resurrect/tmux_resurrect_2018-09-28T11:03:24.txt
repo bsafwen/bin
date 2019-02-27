@@ -1,0 +1,61 @@
+pane	6	0	:LCMB4	0	:	0	:/home/safwen/workspace	1	ssh	:ssh root@10.100.100.50
+pane	6	0	:LCMB4	0	:	1	:/home/safwen/workspace	0	ssh	:ssh root@10.100.100.50
+pane	6	1	:LCMB4	0	:	0	:/home/safwen/workspace	1	ssh	:ssh root@10.100.100.50
+pane	6	2	:HET	0	:-	0	:/home/safwen/workspace	1	ssh	:ssh root@10.100.100.51
+pane	6	3	:HET	1	:*	0	:/home/safwen/workspace	1	ssh	:ssh root@10.100.100.51
+pane	6	4	:sudo	0	:	0	:/home/safwen/workspace	1	sudo	:sudo docker run -ti -v /home/safwen/workspace/:/tmp ed828bc7a4d8 bash
+pane	HDC	0	:hdc	0	:	0	:/home/safwen/workspace/hdc/deps/liblayer2	1	zsh	:
+pane	HDC	1	:ksatdriver	0	:	0	:/home/safwen/workspace/ksatdriver	1	zsh	:vim src/libsystemd/sd-bus/bus-control.c +97
+pane	HDC	2	:snt-manager	0	:	0	:/usr/share/man	1	man	:vim state_machine/tx.sm +94
+man iptables
+pane	HDC	3	:snt	0	:	0	:/home/safwen/workspace/snt	1	zsh	:
+pane	HDC	4	:deploy	0	:	0	:/home/safwen/workspace/modem_platform_deploy	1	vim	:vim /home/safwen/ebtables
+vim modem/modemDeployment.sh
+pane	HDC	5	:LCMB3	0	:	0	:/home/safwen/workspace/modem_tests_auto	1	ssh	:ssh root@10.100.100.50
+pane	HDC	5	:LCMB3	0	:	1	:/home/safwen/workspace/modem_tests_auto	0	ssh	:ssh root@10.100.100.50
+pane	HDC	6	:LCMB3	0	:	0	:/home/safwen/workspace/ksatdriver	1	ssh	:vim calibration-main.c
+ssh root@10.100.100.50
+pane	HDC	7	:Het_To_Gse	0	:	0	:/home/safwen	1	ssh	:ssh root@10.100.100.51
+pane	HDC	8	:HET	0	:	0	:/home/safwen/workspace/modem_tests_auto	1	ssh	:ssh root@10.100.100.51
+pane	HDC	9	:HET	1	:*	0	:/home/safwen/workspace/modem_tests_auto	1	ssh	:ssh root@10.100.100.51
+pane	HDC	9	:HET	1	:*	1	:/home/safwen/workspace/modem_tests_auto	0	ssh	:ssh root@10.100.100.51
+pane	HDC	9	:HET	1	:*	2	:/home/safwen/workspace/modem_tests_auto	0	zsh	:
+pane	HDC	10	:het	0	:-	0	:/home/safwen/workspace/het	1	zsh	:vim src/main.c +90
+vim libs/lib_mbd_decapsulator/src/mbd_decapsulator.c +393
+vim libs/lib_processing_interface/src/processing_interface.c +64
+pane	HDC	11	:ksat	0	:	0	:/home/safwen/workspace/snt-kernel-conf	1	zsh	:
+pane	HDC	12	:QEMU	0	:	0	:/home/safwen/workspace	0	sudo	:sudo docker run -ti --privileged -v /home/safwen/workspace/:/root/ modem:final bash
+pane	HDC	12	:QEMU	0	:	1	:/home/safwen/workspace	0	bash	:sudo su
+pane	HDC	12	:QEMU	0	:	2	:/home/safwen/workspace/modem_tests_auto	1	bash	:sudo su
+pane	HDC	13	:vim	0	:	0	:/home/safwen/workspace/linux-xlnx/drivers/media/dvb-core	1	vim	:vim dvb-sec-core.c +836
+vim dmxdev.c +807
+vim /lib/systemd/system/saf@.service
+pane	HDC	14	:git	0	:	0	:/home/safwen/workspace/dvb-sec	1	git	:git grep dvbdmx_allocate_gse_feed
+pane	HDC	15	:zsh	0	:	0	:/home/safwen/workspace/linux-xlnx	1	zsh	:sudo vim /lib/systemd/system/saf@.service
+vim quick_sort.cpp
+pane	HDC	16	:zsh	0	:	0	:/home/safwen/workspace/modem_tests_auto	1	zsh	:
+pane	HDC	17	:ssh	0	:	0	:/home/safwen	1	ssh	:ssh root@10.100.100.50
+window	6	0	0	:	574d,174x48,0,0[174x24,0,0,71,174x23,0,25,75]
+window	6	1	0	:	6754,174x48,0,0,72
+window	6	2	0	:-	6755,174x48,0,0,73
+window	6	3	1	:*	6756,174x48,0,0,74
+window	6	4	0	:	6759,174x48,0,0,77
+window	HDC	0	0	:	675a,174x48,0,0,78
+window	HDC	1	0	:	6752,174x48,0,0,13
+window	HDC	2	0	:	6753,174x48,0,0,14
+window	HDC	3	0	:	6754,174x48,0,0,15
+window	HDC	4	0	:	e751,174x48,0,0,22
+window	HDC	5	0	:	ce8c,174x48,0,0[174x14,0,0,70,174x33,0,15,76]
+window	HDC	6	0	:	e74f,174x48,0,0,20
+window	HDC	7	0	:	6756,174x48,0,0,36
+window	HDC	8	0	:	e751,174x48,0,0,41
+window	HDC	9	1	:*	67bf,174x48,0,0[174x17,0,0,42,174x12,0,18,43,174x17,0,31,52]
+window	HDC	10	0	:-	6754,174x48,0,0,53
+window	HDC	11	0	:	6755,174x48,0,0,54
+window	HDC	12	0	:	bf0e,174x48,0,0[174x9,0,0,55,174x11,0,10,61,174x26,0,22,62]
+window	HDC	13	0	:	e751,174x48,0,0,60
+window	HDC	14	0	:	e754,174x48,0,0,63
+window	HDC	15	0	:	e755,174x48,0,0,64
+window	HDC	16	0	:	675b,174x48,0,0,79
+window	HDC	17	0	:	e752,174x48,0,0,80
+state	HDC	

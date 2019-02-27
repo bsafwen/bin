@@ -1,0 +1,48 @@
+pane	HDC	0	:snt-mib	0	:	0	:/home/safwen/workspace/mac/deps/snt-mib	1	tig	:tig
+pane	HDC	1	:hdc	0	:	0	:/home/safwen/workspace/hdc	1	zsh	:vim contrib/debian-multi/libmodem-calibration1.install
+pane	HDC	2	:MAC	0	:	0	:/home/safwen/workspace/mac	1	zsh	:
+pane	HDC	3	:snt-release	0	:	0	:/home/safwen/workspace/snt-release	1	zsh	:
+pane	HDC	4	:LCMB4	0	:-	0	:/home/safwen/workspace/modem_tests_auto	1	ssh	:ssh root@10.100.100.50
+pane	HDC	5	:LCMB4	1	:*	0	:/home/safwen/workspace/snt-manager	1	ssh	:ssh root@10.100.100.50
+pane	HDC	6	:vim	0	:	0	:/home/safwen/workspace/sntstatus	1	vim	:vim calibration-main.c
+vim config/config.xml
+pane	LCMB9	0	:ssh	0	:	0	:/home/safwen/workspace/modem_tests_auto	1	ssh	:ssh root@10.100.100.50
+pane	LCMB9	1	:ssh	0	:-	0	:/home/safwen/workspace/modem_tests_auto	1	ssh	:ssh root@172.20.35.248
+pane	LCMB9	2	:zsh	1	:*	0	:/home/safwen/HET_RELEASE_int_modem_systemd_R3_20180910-072541	1	zsh	:
+pane	SYSTEMD	0	:tests_auto	0	:	0	:/home/safwen/algos	1	vim	:vim kadane.cpp
+pane	SYSTEMD	1	:modem_platform	0	:	0	:/home/safwen/workspace/modem_platform_deploy	1	vim	:vim modem/modemDeployment.sh
+pane	SYSTEMD	2	:MAC	0	:	0	:/home/safwen/workspace/libmodem-calibration	1	zsh	:
+pane	SYSTEMD	3	:HET	0	:	0	:/home/safwen/workspace/modem_tests_auto	1	ssh	:ssh root@10.100.100.51
+pane	SYSTEMD	3	:HET	0	:	1	:/home/safwen/workspace/modem_tests_auto	0	ssh	:ssh root@10.100.100.51
+pane	SYSTEMD	4	:snt-manager	0	:	0	:/home/safwen/workspace/snt-manager	1	zsh	:
+pane	SYSTEMD	5	:snt-release	0	:	0	:/home/safwen/workspace/snt-release	1	zsh	:
+pane	SYSTEMD	6	:BUILDER1	0	:	0	:/home/safwen/workspace/snt	1	ssh	:vim contrib/centos6/hdc.spec
+ssh root@172.20.35.248
+pane	SYSTEMD	7	:LCMB9	1	:*	0	:/home/safwen/workspace/modem_tests_auto	1	ssh	:ssh root@10.100.100.50
+pane	SYSTEMD	8	:LCMB9	0	:-	0	:/home/safwen/workspace/modem_tests_config	1	ssh	:ssh root@10.100.100.50
+pane	SYSTEMD	9	:HET-R3	0	:	0	:/home/safwen/workspace/modem_tests_auto	1	ssh	:ssh root@10.100.100.51
+pane	SYSTEMD	10	:tig	0	:	0	:/home/safwen/workspace/het	1	tig	:tig
+pane	SYSTEMD	11	:zsh	0	:	0	:/home/safwen/workspace/hetToGse	1	zsh	:
+window	HDC	0	0	:	6291,152x46,0,0,12
+window	HDC	1	0	:	6292,152x46,0,0,13
+window	HDC	2	0	:	6293,152x46,0,0,14
+window	HDC	3	0	:	6294,152x46,0,0,15
+window	HDC	4	0	:-	e291,152x46,0,0,22
+window	HDC	5	1	:*	6296,152x46,0,0,17
+window	HDC	6	0	:	e28f,152x46,0,0,20
+window	LCMB9	0	0	:	c4c0,152x46,0,0,3
+window	LCMB9	1	0	:-	e290,152x46,0,0,21
+window	LCMB9	2	1	:*	e292,152x46,0,0,23
+window	SYSTEMD	0	0	:	c4bd,152x46,0,0,0
+window	SYSTEMD	1	0	:	c4be,152x46,0,0,1
+window	SYSTEMD	2	0	:	c4bf,152x46,0,0,2
+window	SYSTEMD	3	0	:	5fec,152x46,0,0{76x46,0,0,4,75x46,77,0,9}
+window	SYSTEMD	4	0	:	c4c5,152x46,0,0,8
+window	SYSTEMD	5	0	:	c4c3,152x46,0,0,6
+window	SYSTEMD	6	0	:	c4c4,152x46,0,0,7
+window	SYSTEMD	7	1	:*	628f,152x46,0,0,10
+window	SYSTEMD	8	0	:-	6290,152x46,0,0,11
+window	SYSTEMD	9	0	:	e293,152x46,0,0,24
+window	SYSTEMD	10	0	:	e294,152x46,0,0,25
+window	SYSTEMD	11	0	:	e295,152x46,0,0,26
+state	HDC	

@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/bsafwen/workspace/flt/deps'
+let g:netrw_dirhist_2='/home/bsafwen/workspace/ht_test_runner/build'
+let g:netrw_dirhist_3='/home/bsafwen/workspace/sbdm/deps/ht_tools/tools/collectd'
+let g:netrw_dirhist_4='/home/bsafwen/workspace/sbdm/deps'

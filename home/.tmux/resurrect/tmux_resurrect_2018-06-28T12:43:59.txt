@@ -1,0 +1,24 @@
+pane	0	0	:zsh	0	:	0	:/home/bsafwen/workspace	1	zsh	:
+pane	0	1	:zsh	0	:	0	:/home/bsafwen/workspace/initrd	1	zsh	:
+pane	0	1	:zsh	0	:	1	:/home/bsafwen/workspace/linux/Documentation	0	vim	:vim initrd.txt
+pane	0	2	:scaleway	0	:	0	:/home/bsafwen	1	zsh	:
+pane	0	3	:zsh	0	:-	0	:/home/bsafwen/workspace/rootfs/HET_RELEASE_int_modem_release_5-3-0_20180528-224321	1	zsh	:
+pane	0	3	:zsh	0	:-	1	:/home/bsafwen	0	ssh	:ssh root@10.100.100.50
+pane	0	4	:ssh	1	:*	0	:/home/bsafwen	1	ssh	:ssh root@172.20.35.248
+pane	1	0	:LCMB3	1	:*	0	:/home/bsafwen	1	ssh	:ssh root@10.100.100.50
+pane	1	1	:HET	0	:-	0	:/home/bsafwen	0	ssh	:ssh root@10.100.100.51
+pane	1	1	:HET	0	:-	1	:/home/bsafwen	1	ssh	:ssh root@10.100.100.51
+pane	1	1	:HET	0	:-	2	:/home/bsafwen	0	ssh	:ssh root@10.100.100.51
+pane	1	2	:vim	0	:	0	:/home/bsafwen	1	vim	:vim sba_lcmb5_10_100KB
+pane	1	3	:man	0	:	0	:/usr/share/man	1	man	:man ping
+vim mac/src/crlib/crlib.c
+window	0	0	0	:	b57d,167x51,0,0,0
+window	0	1	0	:	a950,167x51,0,0[167x25,0,0,1,167x25,0,26,2]
+window	0	2	0	:	b580,167x51,0,0,3
+window	0	3	0	:-	2958,167x51,0,0[167x25,0,0,4,167x25,0,26,5]
+window	0	4	1	:*	b583,167x51,0,0,6
+window	1	0	1	:*	b4c4,152x42,0,0,7
+window	1	1	0	:-	07ec,152x42,0,0{82x42,0,0[82x25,0,0,8,82x16,0,26,10],69x42,83,0,9}
+window	1	2	0	:	5a90,152x42,0,0,11
+window	1	3	0	:	5a91,152x42,0,0,12
+state	1	
